@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+
+  <title>Intense Gameplay</title>
+  <meta name="description" content="Juego creado en Javascript">
+  <meta name="author" content="Zorbuk">
+  <link rel="stylesheet" href="css/main.css?v=1.0">
+
+</head>
+
+<body>
+  <h2>Intense Gameplay, el videojuego definitivo.</h2>
+  <div id="menuPrincipal">
+    <div id="selectorDePersonajes"></div>
+    <div id="botonesSelectorDePersonajes">
+      <button class="boton-azul-porDefecto" id="crearPersonaje">Crear personaje</button> 
+      <button class="boton-azul-porDefecto" id="eliminarPersonaje">Eliminar Personaje</button>
+      <button class="boton-azul-porDefecto" id="eliminarTodo">Eliminar Todo</button></div>
+  </div>
+
+  <div id="juego">
+    <!--<button onclick="añadirObjetoAlInventario()">Añadir objeto aleatorio</button> <button onclick="añadirBolsa()">Añadir Bolsa</button>-->
+
+  <div id="inventario">&nbsp;<b>Objetos del Personaje</b>
+	<div id="bolsas">&nbsp;
+
+	</div>
+	<div id="objetos">
+		
+	</div>
+</div>
+
+  </div>
+
+</body>
+<!-- Carga base -->
+<script src="js/taffydb-master/taffy-min.js"></script>
+<script src="js/configuracion.js"></script>
+<!-- Carga controladores -->
+<script src="js/controladores/personaje.js"></script>
+<script src="js/controladores/ventanas.js"></script>
+<script src="js/controladores/inventario.js"></script>
+<!-- Database -->
+<script src="js/database.js"></script>
+
+<!-- Configuración inicial -->
+<script src="js/loader.js"></script>
+</html>

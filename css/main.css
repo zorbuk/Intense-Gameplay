@@ -1,0 +1,133 @@
+    *{
+		font-family:verdana;
+	}
+	b{
+		color:green;
+    }
+    h2{
+        margin-top:100px;
+        margin-bottom:-100px;
+        padding:11px;
+        margin-left:33%;
+        margin-right: 33%;
+    }
+    #menuPrincipal{
+        margin-top:100px;
+        margin-left:33%;
+        border:1px solid salmon;
+        margin-right:33%;
+        padding:11px;
+        background-color:pink;
+        margin-bottom:5%;
+    }
+    img.icono-personaje{
+        height: 25px;
+        width: 25px;
+    }
+    p.carta-personaje{
+        padding:5px;
+        border:1px solid white;
+    }
+    p.carta-personaje:hover{
+        background-color: aquamarine;
+    }
+    #selectorDePersonajes{
+        font-size:25px;
+        margin-bottom:11px;
+        background-color:whitesmoke;
+        padding:11px;
+        border:1px solid beige;
+    }
+	#inventario{
+		min-height: 100px;
+		height:auto;
+		width:305px;
+	}
+	#objetos{
+		min-height: 30;
+		height:auto;
+		width:305px;
+		/*background-color:lightgray;*/
+	}
+	#objeto{
+		float:left;
+		height:25px;width:25px;
+		margin-left:5px;
+		margin-top:5px;
+	}
+	#bolsas{
+		background-color:lightgreen;
+		height:35px;
+	}
+	#bolsa{
+		float:left;
+		height:25px;width:25px;
+		margin-left:5px;
+		margin-top:5px;
+		background-color:white;
+	}
+	img.bolsa{
+		height:25px;
+		width:25px;
+		border:1px solid green;
+		border-radius:5px;
+	}
+	img.normalItem{
+		height:25px;
+		width:25px;
+		border:1px solid black;
+		border-radius:5px;
+	}
+	img.superiorItem{
+		height:25px;
+		width:25px;
+		border:1px solid green;
+		border-radius:5px;
+	}
+	img.legendaryItem{
+		height:25px;
+		width:25px;
+		border:1px solid pink;
+		border-radius:5px;
+    }
+    .boton-azul-porDefecto {
+        -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+        background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+        background-color:#007dc1;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        border:1px solid #124d77;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:13px;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #154682;
+    }
+    .boton-azul-porDefecto:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+        background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+        background-color:#0061a7;
+    }
+    .boton-azul-porDefecto:active {
+        position:relative;
+        top:1px;
+    }
+    
+            
